@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+# run outputs
+ureme_output/
+ureme_demo/
+out*/
+*.log
+# local secrets
+.env
+# Word lock files
+~$*.docx

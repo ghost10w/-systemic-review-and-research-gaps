@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+  <MedlineCitation Status="MEDLINE" Owner="NLM">
+    <PMID Version="1">11111111</PMID>
+    <Article PubModel="Print-Electronic">
+      <Journal>
+        <JournalIssue CitedMedium="Internet"><Volume>12</Volume><PubDate><Year>2024</Year><Month>Mar</Month></PubDate></JournalIssue>
+        <Title>Journal of Test Medicine</Title>
+      </Journal>
+      <ArticleTitle>Aerobic exercise for <i>depression</i>: a randomized trial.</ArticleTitle>
+      <ELocationID EIdType="doi" ValidYN="Y">10.1000/TEST.1</ELocationID>
+      <Abstract>
+        <AbstractText Label="BACKGROUND">Depression is common.</AbstractText>
+        <AbstractText Label="CONCLUSIONS">Further research is needed in older adults.</AbstractText>
+      </Abstract>
+      <AuthorList CompleteYN="Y">
+        <Author ValidYN="Y"><LastName>Smith</LastName><ForeName>Jane</ForeName><Initials>J</Initials></Author>
+        <Author ValidYN="Y"><CollectiveName>TEST Trial Group</CollectiveName></Author>
+      </AuthorList>
+      <Language>eng</Language>
+      <PublicationTypeList>
+        <PublicationType UI="D016428">Journal Article</PublicationType>
+        <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+      </PublicationTypeList>
+    </Article>
+    <MeshHeadingList><MeshHeading><DescriptorName UI="D003863" MajorTopicYN="Y">Depression</DescriptorName></MeshHeading></MeshHeadingList>
+    <KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">exercise</Keyword></KeywordList>
+  </MedlineCitation>
+  <PubmedData>
+    <ArticleIdList>
+      <ArticleId IdType="pubmed">11111111</ArticleId>
+      <ArticleId IdType="doi">10.1000/test.1</ArticleId>
+      <ArticleId IdType="pmc">PMC1234567</ArticleId>
+    </ArticleIdList>
+  </PubmedData>
+</PubmedArticle>
+<PubmedArticle>
+  <MedlineCitation Status="MEDLINE" Owner="NLM">
+    <PMID Version="1">22222222</PMID>
+    <Article PubModel="Print">
+      <Journal>
+        <JournalIssue CitedMedium="Print"><PubDate><MedlineDate>2019 Nov-Dec</MedlineDate></PubDate></JournalIssue>
+        <Title>Old Journal</Title>
+      </Journal>
+      <ArticleTitle>A cohort study without abstract.</ArticleTitle>
+      <Language>eng</Language>
+      <PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList>
+    </Article>
+  </MedlineCitation>
+  <PubmedData><ArticleIdList><ArticleId IdType="pubmed">22222222</ArticleId></ArticleIdList></PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>

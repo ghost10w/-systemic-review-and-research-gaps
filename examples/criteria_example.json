@@ -1,0 +1,30 @@
+{
+  "_comment": "Example eligibility criteria for a review of SGLT2 inhibitors in heart failure. Every key is documented in Unified_Engine_Manual.docx section 6.2.",
+  "title": "SGLT2 inhibitors and heart-failure hospitalisation in adults with heart failure: a systematic review and meta-analysis",
+  "question": "In adults with heart failure, do SGLT2 inhibitors compared with placebo reduce hospitalisation for heart failure and all-cause mortality?",
+  "pico": {
+    "population": "Adults (18+) with heart failure (any ejection fraction)",
+    "intervention": "SGLT2 inhibitor (dapagliflozin, empagliflozin, sotagliflozin, canagliflozin, ertugliflozin)",
+    "comparison": "Placebo or standard care",
+    "outcome": "Hospitalisation for heart failure; all-cause mortality"
+  },
+  "year_min": 2010,
+  "languages": ["eng"],
+  "require_abstract": true,
+  "exclude_publication_types": ["Review", "Systematic Review", "Meta-Analysis", "Editorial", "Comment", "Letter", "Case Reports"],
+  "include_concepts": {
+    "Population": ["heart failure", "HFrEF", "HFpEF", "cardiac failure"],
+    "Intervention": ["SGLT2*", "SGLT-2*", "sodium-glucose cotransporter*", "dapagliflozin", "empagliflozin", "sotagliflozin", "canagliflozin", "ertugliflozin"]
+  },
+  "exclude_terms": {
+    "Animal or in-vitro study": ["mice", "rats", "murine", "porcine", "in vitro", "cell line*"],
+    "Paediatric population": ["children", "paediatric", "pediatric"]
+  },
+  "study_design_terms": ["randomi*", "randomly assigned"],
+  "study_design_label": "Not a randomised controlled trial",
+  "min_sample_size": 50,
+  "full_text_required_terms": {},
+  "full_text_policy": "abstract_fallback",
+  "outcomes": ["Hospitalisation for heart failure", "All-cause mortality"],
+  "effect_measure": "RR"
+}

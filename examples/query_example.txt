@@ -1,0 +1,4 @@
+("heart failure"[tiab] OR "cardiac failure"[tiab] OR "Heart Failure"[mh])
+AND (SGLT2*[tiab] OR "sodium-glucose cotransporter 2"[tiab] OR dapagliflozin OR empagliflozin OR sotagliflozin)
+AND (randomized OR randomised OR "randomly assigned")
+NOT (mice OR rats)

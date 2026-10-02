@@ -1,0 +1,17 @@
+# Unified Research & Meta-Analysis Engine — runtime dependencies
+# HTTP access to PubMed/NCBI E-utilities, Europe PMC REST and Semantic Scholar Graph API
+# (the engine ships its own thin, rate-limited API wrappers on top of requests)
+requests>=2.31
+# Numerical / statistical stack
+numpy>=1.24
+scipy>=1.10
+statsmodels>=0.14
+pandas>=2.0          # required by statsmodels
+# Figures (forest, funnel, PRISMA flow, risk-of-bias plots)
+matplotlib>=3.7
+# Microsoft Word report generation
+python-docx>=1.1
+# Command-line interface
+rich>=13.0
+# Tests
+pytest>=7.4

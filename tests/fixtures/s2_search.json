@@ -1,0 +1,8 @@
+{"total": 2, "offset": 0, "data": [
+ {"paperId":"abc123","externalIds":{"DOI":"10.1000/TEST.1","PubMed":"11111111","PubMedCentral":"1234567"},
+  "title":"Aerobic Exercise for Depression: A Randomized Trial","abstract":"Depression is common.","year":2024,
+  "venue":"J Test Med","journal":{"name":"Journal of Test Medicine"},"authors":[{"authorId":"1","name":"Jane Smith"}],
+  "citationCount":9,"isOpenAccess":true,"openAccessPdf":{"url":"https://example.org/pdf"},"publicationTypes":["JournalArticle"]},
+ {"paperId":"def456","externalIds":{},"title":"Unrelated paper","abstract":null,"year":2023,"venue":"",
+  "journal":null,"authors":[],"citationCount":0,"isOpenAccess":false,"openAccessPdf":null,"publicationTypes":null}
+]}

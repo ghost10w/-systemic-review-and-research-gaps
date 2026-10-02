@@ -1,0 +1,13 @@
+{"version":"6.9","hitCount":2,"nextCursorMark":"AoE=","request":{"queryString":"exercise"},
+ "resultList":{"result":[
+  {"id":"11111111","source":"MED","pmid":"11111111","pmcid":"PMC1234567","doi":"10.1000/test.1",
+   "title":"Aerobic exercise for depression: a randomized trial.","authorString":"Smith J, TEST Trial Group.",
+   "journalInfo":{"journal":{"title":"Journal of Test Medicine"}},"pubYear":"2024",
+   "abstractText":"<h4>Background</h4>Depression is common. Further research is needed.",
+   "language":"eng","pubTypeList":{"pubType":["Randomized Controlled Trial","Journal Article"]},
+   "isOpenAccess":"Y","citedByCount":7,
+   "fullTextUrlList":{"fullTextUrl":[{"availability":"Open access","availabilityCode":"OA","documentStyle":"html","site":"Europe_PMC","url":"https://europepmc.org/articles/PMC1234567"}]}},
+  {"id":"PPR123","source":"PPR","doi":"10.1101/2024.01.01.000001","title":"A preprint on exercise",
+   "authorList":{"author":[{"fullName":"Doe J"}]},"pubYear":"2025","abstractText":"Preprint abstract.",
+   "isOpenAccess":"N","citedByCount":0}
+ ]}}
